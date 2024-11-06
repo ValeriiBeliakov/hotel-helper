@@ -90,7 +90,7 @@ const SalesChart = ({ bookings, numDays }) => {
   return (
     <StyledSalesChart>
       <Heading as="h2">
-        Продажи с {format(allDates.at(0), "MMM dd yyyy ")} &mdash;{" "}
+        Продажи с {format(allDates[0], "MMM dd yyyy ")} &mdash;{" "}
         {format(allDates[allDates.length - 1], "MMM dd yyyy ")}
       </Heading>
       <ResponsiveContainer height={400} width="100%">
